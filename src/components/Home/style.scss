@@ -1,0 +1,47 @@
+.home_container {
+  display:flex;
+  background: url("../../assets/mariostartlarge.jpg");
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  margin-top: 10px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.enter {
+  display: flex;
+  /* flex-direction: column; */
+  background: url("../../assets/mariostart.jpg");
+  background-size: cover;
+  border: #e52521 solid 1px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 400px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.start {
+  margin: 0 auto;
+  width: 150px;
+}
+
+
+.home_title {
+  font-family: "Mario";
+  font-size: 50px;
+  -webkit-text-stroke: 1px black;
+  text-shadow:
+  3px 3px 0 #000,
+-1px -1px 0 #000,  
+ 1px -1px 0 #000,
+ -1px 1px 0 #000,
+  1px 1px 0 #000;
+  color: #fbd000;
+  margin: 0 auto 20px;
+  padding: 0;
+}

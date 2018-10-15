@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Mario";
+  src: url("assets/SuperMario256.ttf");
+}
+
+.app-wrapper {
+  // max-width: calc(768px + 16px * 2);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  display: flex;
+  min-height: 100%;
+  // padding: 0 16px;
+  flex-direction: column;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
