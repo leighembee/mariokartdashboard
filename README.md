@@ -3,9 +3,12 @@ This is the very begining of a fun project using data collected from Mario Kart 
 
 ## To Dos:
 * add data for the characters and tracks that pop up in the modals
+* make responsive for mobile and smaller screens
 * build out the backend with api/db for data and to store assets ( probably mySQL ) 
 * add ability to add new game data
 * logins / authentication
 * another page just for track history data 
 * add redux , and control data via thunks or sagas
 * re organize folder structure ( containers / components etc )
+
+You can find the app current deployed [here] (https://mariokartalloystars.herokuapp.com/)
