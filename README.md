@@ -11,4 +11,4 @@ This is the very begining of a fun project using data collected from Mario Kart 
 * add redux , and control data via thunks or sagas
 * re organize folder structure ( containers / components etc )
 
-You can find the app current deployed [here] (https://mariokartalloystars.herokuapp.com/)
+You can find the app current deployed at https://mariokartalloystars.herokuapp.com/
