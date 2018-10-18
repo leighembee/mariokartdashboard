@@ -3,15 +3,14 @@ const _ = require('lodash');
 
 // function to count amount of overall wins per players
 function countWins(arr) {
-  const winners = {};
-  for (let i = 0; i < arr.length; i++) {
-    if (winners[arr[i].placement[0]]) {
-      winners[arr[i].placement[0]] += 1;
+  return arr.reduce((winners, place) => {
+    if (place.placement[0] in winners) {
+      winners[place.placement[0]] += 1; // eslint-disable-line no-param-reassign
     } else {
-      winners[arr[i].placement[0]] = 1;
+      winners[place.placement[0]] = 1; // eslint-disable-line no-param-reassign
     }
-  }
-  return winners;
+    return winners;
+  }, {});
 }
 
 // count amount of times tracks are picked
